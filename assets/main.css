@@ -325,6 +325,7 @@ Add the correct display in Chrome and Safari.
 
 summary {
   display: list-item;
+  cursor: pointer;
 }
 
 /*
@@ -1788,9 +1789,9 @@ article .highlight {
   }
 }
 
-.hover\:animate-spin:hover {
+/* .hover\:animate-spin:hover {
   animation: spin 1s linear infinite;
-}
+} */
 
 .hover\:bg-black\/\[6\%\]:hover {
   background-color: rgb(0 0 0 / 6%);
